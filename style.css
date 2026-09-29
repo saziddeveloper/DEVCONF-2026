@@ -5,4 +5,39 @@ body {
 }
 
 
-/*---------  Header Section CSS  ---------*/
+/*---------  Nav Section CSS  ---------*/
+header nav {
+    width: 80%;
+    height: 50px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+header nav img{
+    width:160px;
+    height: 50px;
+}
+header nav aside {
+    display: flex;
+    gap: 20px;
+}
+header nav aside a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #575757;
+}
+header nav aside li {
+    list-style: none;
+}
+header nav button{
+    width:180px;
+    height: 50px;
+    background-color: #1d4ed8;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
