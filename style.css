@@ -321,3 +321,29 @@ li::marker {
     font-size: 16px;
     line-height: 1.7;
 }
+
+
+/*---------  Footer Section CSS  ---------*/
+footer {
+    width: 100%;
+    background-color: #0d1b2a;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer article {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+#second-aside-of-footer {
+    display: flex;
+    gap: 30px;
+}
+footer a {
+    text-decoration: none;
+}
+footer p {
+    color: white;
+}
